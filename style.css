@@ -1,7 +1,7 @@
 li:first-child {
     font-weight: bold;
 }
-[href][target]::after {
+[target=_blank]::after {
     content: " 🌀";
 }
 li:nth-child(even) {
