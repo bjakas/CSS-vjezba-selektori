@@ -1,6 +1,15 @@
-li:first-child { font-weight: bold;}
-[href][target]::after {content: " 😎";}
-li:nth-child(even) {font-style: italic;}
+li:first-child {
+    font-weight: bold;
+}
+[href][target]::after {
+    content: " 😎";
+}
+li:nth-child(even) {
+    font-style: italic;
+}
 a { 
     color: goldenrod;
+}
+a:hover {
+    color: grey;
 }
